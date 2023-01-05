@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: rgb(245,245,245); /* fallback for old browsers */
+  
+  color:rgb(234,215,215);
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  background: border-box;
+  color: black;
+  border-top: none;
+  width: 202px;
+  padding: 5px;
+  border:1px solid rgb(217,217,217);
+  
+}
+
+input::-webkit-input-placeholder{
+  font-style:italic;
+  color:rgb(217,217,217);
+}
+
+button {
+  background: content-box;
+ 
+  border: none;
+}
+.xButton{
+ opacity:0;
+}
+.xButton:hover{
+  opacity:1;
+  color:rgb(130, 6, 6);
+}
